@@ -1,0 +1,87 @@
+body{
+
+    font-family: "East Sea Dokdo", cursive;
+
+    background-image: url(image/beach.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+
+    position: relative;
+    top: 20vh;
+
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(247, 243, 242, 0.7);
+    /* margin-left: auto; */    
+
+}
+.btn-warning{
+    color: white;
+}
+
+
+.view-area{
+    position: relative;
+    top: 12%;
+}
+.game-explain{
+    font-weight: bold;
+}
+
+.title-top{
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgba(50, 110, 231, 0.848);
+}
+.title-middle{
+    font-size: 5vw;
+    font-weight: bold;
+    color: aqua;
+    
+}
+.title-bottom{
+    font-size: 7vw;
+    font-weight: bold;
+    color: red;
+}
+
+.input-row{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.input-tap{
+    width: 50%;
+    border-radius: 10px;
+    font-size: small;
+    text-align: center;
+    color: rgb(255, 51, 68);
+}
+.input-tap::placeholder {
+    color: rgb(125, 122, 122);
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+  }
+
+
+  .btn-style{
+    height: 80px;
+    width: 120px;
+    border-radius: 50px;
+    font-size: 20pt;
+    font-weight: bold;
+  }
+  .btn-reset{
+    font-size: 19px;
+  }
+  .btn-reset:hover{
+    color: white;
+
+  }
