@@ -32,6 +32,14 @@ body{
 .game-explain{
     font-weight: bold;
 }
+.game-explain-1{
+    font-size: 2vw;
+    
+}
+.game-explain-2{
+    font-size: 2.5vw;
+
+}
 
 .title-top{
     font-size: 2vw;
